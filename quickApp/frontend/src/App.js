@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to the Task Manager</h1>
+        <h1>Welcome to the Task Management App</h1>
       </header>
       <main>
         <AccountCreation />
@@ -18,9 +18,6 @@ function App() {
         <TaskCreation />
         <TaskList />
       </main>
-      <footer>
-        <p>© 2023 Task Manager. All rights reserved.</p>
-      </footer>
     </div>
   );
 }
